@@ -46,7 +46,7 @@
 
             <?php foreach($rows as $row) { ?>
                 <tr>
-                    <td><?= $rowsNames['id'] ?></td>
+                    <td><?= $rowsNames['id'] ?>: <?= $row['id'] ?></td>
                     <td><?= $row['name']  ?></td>
                 </tr>
             <?php } ?>

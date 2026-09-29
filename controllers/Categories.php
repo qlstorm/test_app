@@ -5,12 +5,12 @@ namespace controllers;
 class Categories {
 
     public static function index() {
-        include __DIR__ . '/../views/categories.php';
+        include 'views/categories.php';
     }
 
     public static function view(int $id) {
         $_GET['id'] = $id;
 
-        include __DIR__ . '/../views/category.php';
+        include 'views/category.php';
     }
 }

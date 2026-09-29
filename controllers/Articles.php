@@ -11,6 +11,6 @@ class Articles {
 
         DB::query('update articles set views = views + 1 where id = ' . $id);
 
-        include __DIR__ . '/../views/article.php';
+        include 'views/article.php';
     }
 }
